@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  #heading{
+    margin-top: 20px;
+    font-family: Calibri;
+  }
+
+  .wrapper{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 6%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+
+  .emoji-face{
+    background-color: rgb(255, 221, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  }
+
+  .eye1{
+    background-color: rgba(35, 34, 34, 0.659);
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    margin: 12px 9px;
+  }
+
+  .eye2{
+    background-color: rgba(35, 34, 34, 0.659);
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    margin: -20px 32px;
+  }
+
+  .mouth{
+   rotate: 180deg;
+    height: 12px;
+    width: 22px;
+    margin: 29px 14px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(128, 77, 0);
+    position: absolute;
+  }
+
+  .tongue{
+    height: 6px;
+    width: 12px;
+    margin: 0px 5px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    z-index: 1;
+  }
+
+  .mouth-shock{
+    rotate: 180deg;
+    height: 18px;
+    width: 15px;
+    margin: 25px 18px;
+    border-radius: 50px;
+    background-color: rgb(128, 77, 0);
+    position: absolute;
+  }
+
+  .mouth-speechless{
+    height: 4px;
+    width: 28px;
+    margin: 32px 11.2px;
+    border-radius: 50px;
+    background-color: rgb(128, 77, 0);
+    position: absolute;
+  }
+
+
+  
+
+
+  .write-up{
+    height: 650px;
+    width: 550px;
+    background-color: rgb(207, 170, 6);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Calibri;
+  }
+
+
+  .write-up div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap: 10px;
+  }
+
+
+  .write-up h1{
+    font-size: 25px;
+  }
+
+  .write-up p{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  #bykalvium{
+    margin-left: 200px;
+  }
